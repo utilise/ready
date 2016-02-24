@@ -1,7 +1,7 @@
 var expect = require('chai').expect
   , ready  = require('./')
   
-describe('once', function() {
+describe('ready', function() {
   
   it('should invoke if ready', function(done) {
     global.document = { body: true }
